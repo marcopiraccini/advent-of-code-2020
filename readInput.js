@@ -1,13 +1,12 @@
-module.exports = async (filename, fun) => {
+module.exports = async (filename, fun = (x) => x) => {
   const fileStream = require("fs").createReadStream(filename);
   const rl = require("readline").createInterface({
     input: fileStream,
-    crlfDelay: Infinity
+    crlfDelay: Infinity,
   });
   const items = [];
   for await (const line of rl) {
-    items.push(fun(line))
+    items.push(fun(line));
   }
-  return items
-}
-
+  return items;
+};
