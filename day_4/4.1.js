@@ -1,4 +1,4 @@
-const readInput = require("./readInput");
+const readInput = require("../readInput");
 
 const fields = ["byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"];
 const isValid = (item) => fields.every((field) => !!item[field]);

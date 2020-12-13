@@ -1,4 +1,4 @@
-const readInput = require("./readInput");
+const readInput = require("../readInput");
 const preamble = 25;
 
 const coupleExists = (arr, n) =>

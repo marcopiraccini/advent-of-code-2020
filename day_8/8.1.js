@@ -1,4 +1,4 @@
-const readInput = require("./readInput");
+const readInput = require("../readInput");
 
 const parse = (item) => {
   const inst = item.split(" ")[0];

@@ -1,4 +1,4 @@
-const readInput = require("./readInput");
+const readInput = require("../readInput");
 
 const OCCUPIED = "#";
 const EMPTY = "L";

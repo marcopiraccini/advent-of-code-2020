@@ -1,4 +1,4 @@
-const readInput = require("./readInput");
+const readInput = require("../readInput");
 
 const isValid = (item) => {
   const { low, high, ch, pwd } = item;

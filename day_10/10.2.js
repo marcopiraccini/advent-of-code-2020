@@ -1,4 +1,4 @@
-const readInput = require("./readInput");
+const readInput = require("../readInput");
 
 const cache = new Map();
 const childrenBranches = (arr, index, i) => {

@@ -1,4 +1,4 @@
-const readInput = require("./readInput");
+const readInput = require("../readInput");
 
 const isTree = (ch) => ch === "#";
 const walk = (forest, right, down) => {

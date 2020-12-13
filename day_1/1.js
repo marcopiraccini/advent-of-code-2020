@@ -1,4 +1,4 @@
-const readInput = require("./readInput");
+const readInput = require("../readInput");
 
 const main = async () => {
   const nums = await readInput(process.argv[2], (x) => Number(x));

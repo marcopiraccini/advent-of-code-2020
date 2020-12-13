@@ -1,4 +1,4 @@
-const readInput = require("./readInput");
+const readInput = require("../readInput");
 
 const calculatePath = (path, min, max) => {
   if (path.length === 0) return min;

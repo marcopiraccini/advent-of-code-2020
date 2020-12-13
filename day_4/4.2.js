@@ -1,4 +1,4 @@
-const readInput = require("./readInput");
+const readInput = require("../readInput");
 
 const fields = ["byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"];
 const areFieldsComplete = (item) => fields.every((field) => !!item[field]);
