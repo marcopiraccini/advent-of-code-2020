@@ -19,5 +19,8 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
   }
 }
