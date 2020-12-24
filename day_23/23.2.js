@@ -16,7 +16,6 @@ const main = async () => {
   )[0];
   let first = null;
   let current = null;
-  const cups = [];
   const nodesMap = new Map();
   for (let i = 1; i <= size; i++) {
     const val = i <= input.length ? input[i - 1] : i;
@@ -27,7 +26,6 @@ const main = async () => {
       first = node;
     }
     current = node;
-    cups.push(node);
     nodesMap.set(val, node);
     if (i === size) node.next = first;
   }
